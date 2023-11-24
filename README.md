@@ -57,11 +57,9 @@ Request Body
 username: User's username
 password: User's password
 
-    Admin Operations
-    Get All Users
-    Endpoint
-
-
+Admin Operations
+Get All Users
+Endpoint
 
     GET /admin
 
