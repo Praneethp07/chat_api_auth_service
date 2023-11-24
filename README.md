@@ -26,13 +26,11 @@ Description
 Creates a new user account within the specified organization.
 Request Body
 
-    username: User's username
-    password: User's password
+username: User's username
+password: User's password
 
 Login
 Endpoint
-
-
 
     POST /:organizationID/login
 
@@ -41,8 +39,8 @@ Description
 Logs in a user within the specified organization.
 Request Body
 
-    username: User's username
-    password: User's password
+username: User's username
+password: User's password
 
 Update User
 Endpoint
@@ -56,12 +54,12 @@ Description
 Updates user information within the specified organization.
 Request Body
 
-    username: User's username
-    password: User's password
+username: User's username
+password: User's password
 
-Admin Operations
-Get All Users
-Endpoint
+    Admin Operations
+    Get All Users
+    Endpoint
 
 
 
@@ -82,8 +80,6 @@ Description
 Retrieves user information by user ID for administrative purposes.
 Delete User by ID
 Endpoint
-
-
 
     DELETE /admin/:userId
 
