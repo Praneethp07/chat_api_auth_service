@@ -17,9 +17,9 @@ Usage
 Sign Up
 Endpoint
 
-ruby
 
-POST /:organizationID/signup
+
+    POST /:organizationID/signup
 
 Description
 
@@ -32,9 +32,9 @@ Request Body
 Login
 Endpoint
 
-ruby
 
-POST /:organizationID/login
+
+    POST /:organizationID/login
 
 Description
 
@@ -47,9 +47,9 @@ Request Body
 Update User
 Endpoint
 
-ruby
 
-PUT /:organizationID/signup
+
+    PUT /:organizationID/signup
 
 Description
 
@@ -63,9 +63,9 @@ Admin Operations
 Get All Users
 Endpoint
 
-bash
 
-GET /admin
+
+    GET /admin
 
 Description
 
@@ -73,9 +73,9 @@ Retrieves a list of all users for administrative purposes.
 Get User by ID
 Endpoint
 
-bash
 
-GET /admin/:userId
+
+    GET /admin/:userId
 
 Description
 
@@ -83,9 +83,9 @@ Retrieves user information by user ID for administrative purposes.
 Delete User by ID
 Endpoint
 
-bash
 
-DELETE /admin/:userId
+
+    DELETE /admin/:userId
 
 Description
 
